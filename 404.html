@@ -4,9 +4,14 @@
     <meta charset="utf-8" />
     <title>Redirecting…</title>
     <script>
-      // Redirect to index.html while keeping the current URL
-      var path = window.location.pathname + window.location.search + window.location.hash;
-      window.location.replace("/index.html?redirect=" + encodeURIComponent(path));
+      // Only redirect if not already on index.html
+      if (!window.location.pathname.endsWith('/index.html')) {
+        var path = window.location.pathname + window.location.search + window.location.hash;
+        // Prevent infinite redirect loop
+        if (!window.location.search.includes('redirect=')) {
+          window.location.replace('/index.html?redirect=' + encodeURIComponent(path));
+        }
+      }
     </script>
   </head>
   <body>
