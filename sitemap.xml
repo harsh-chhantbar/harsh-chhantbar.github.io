@@ -6,34 +6,5 @@
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-  </url>
-  
-  <!-- Blog posts -->
-  <url>
-    <loc>https://harsh-chhantbar.github.io/blog/microservices-vs-monolithic-architecture</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://harsh-chhantbar.github.io/blog/generative-ai-transforming-creativity</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://harsh-chhantbar.github.io/blog/index-performance-optimization</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://harsh-chhantbar.github.io/blog/aws-tips-cost-security</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  </url>  
 </urlset>
